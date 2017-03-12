@@ -151,7 +151,9 @@ def SmallDifference(complexDifference, eps):
     return True
 
 
-A = np.array([[1, 2, 2, 8, 0],[1, 1, 5, 5, 2],[1, 51, 5, 11, 5], [1, 0, 0, 1, 3], [5, 0, 1000, 1, 212]])
+
+A = np.loadtxt("input.txt")
+#A = np.array([[1, 2, 2, 8, 0],[1, 1, 5, 5, 2],[1, 51, 5, 11, 5], [1, 0, 0, 1, 3], [5, 0, 1000, 1, 212]])
 Q = np.eye(len(A))
 R = A
 eps = 0.01
@@ -164,7 +166,7 @@ while not AllFound(selfNumbers) or not SmallDifference(complexDifference, eps):
     A = np.dot(R, Q)
     SelfFound(A, selfNumbers, complexDifference, complexPairs, eps, it)
     it += 1
-print(A,'\n')
 selfNumbers = np.round(selfNumbers, decimals=2)
 print(selfNumbers)
 print(np.round(np.linalg.eigvals(A),decimals=2))
+np.savetxt("out.txt", selfNumbers, fmt="%.2f   ")
