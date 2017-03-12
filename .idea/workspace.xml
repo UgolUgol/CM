@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35304dd4-e643-4e45-b0b7-e7fcaf0cb22c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -402,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489142237706</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Reading from file and out to file">
+      <created>1489336438871</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489336438871</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -466,7 +472,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="QR alg" />
-    <option name="LAST_COMMIT_MESSAGE" value="QR alg" />
+    <MESSAGE value="Reading from file and out to file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading from file and out to file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
